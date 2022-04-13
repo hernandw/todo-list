@@ -1,5 +1,7 @@
 import TareaFormulario from "./TareaFormulario"
 import '../css/ListaDeTareas.css'
+import { useState } from "react"
+import Tareas from "./Tareas"
 
 
 const ListaDeTareas = () => {

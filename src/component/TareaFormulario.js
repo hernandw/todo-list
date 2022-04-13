@@ -1,22 +1,24 @@
 import '../css/TareaFormulario.css'
 import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 const TareaFormulario = (props) => {
     const [input, setInput] = useState('');
 
     const manejarCambio = e =>{
         setInput(e.target.value)
-        console.log(e.target.value);
+        
     }
 
 const manejarEnvio = e => {
     e.preventDefault();
-    console.log('Enviando Formulario');
+    
     const nuevaTarea = {
-        id: '3455',
+        id: uuidv4(8),
         texto: input,
         completada: false
     }
+    props.onSubmit(nuevaTarea);
 }
 
     return (

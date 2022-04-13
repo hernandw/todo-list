@@ -1,15 +1,15 @@
 
 import './App.css';
-import Tareas from './component/Tareas';
+import ListaDeTareas from './component/ListaDeTareas';
+
+
 
 function App() {
   return (
     <div className="App">
      <div className='container'>
        <h1>Mis tareas</h1>
-       <Tareas texto="Aprender React"
-       
-       />
+      <ListaDeTareas />
      </div>
     </div>
   );

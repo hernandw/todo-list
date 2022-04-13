@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hernandw.github.io/todo-list/static/css/main.301c64f8.css",
+    "main.js": "/hernandw.github.io/todo-list/static/js/main.729c7528.js",
+    "index.html": "/hernandw.github.io/todo-list/index.html",
+    "main.301c64f8.css.map": "/hernandw.github.io/todo-list/static/css/main.301c64f8.css.map",
+    "main.729c7528.js.map": "/hernandw.github.io/todo-list/static/js/main.729c7528.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.301c64f8.css",
+    "static/js/main.729c7528.js"
+  ]
+}
